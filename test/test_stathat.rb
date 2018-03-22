@@ -1,7 +1,6 @@
 require 'helper'
 
-
-class TestStathat < MiniTest::Unit::TestCase
+class TestStathat < Minitest::Test
 
   def test_ez_value
     StatHat::API.ez_post_value("test ez value stat", "test@stathat.com", 0.92) do |resp|
