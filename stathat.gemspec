@@ -31,5 +31,7 @@ Gem::Specification.new do |s|
     "test/helper.rb",
     "test/test_stathat.rb"
   ]
+  s.add_development_dependency 'rake'
+  s.add_development_dependency 'minitest'
 end
 
